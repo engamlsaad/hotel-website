@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+    <!-- Swipper CDN For CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- FontAwesome Libirary CSS -->
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <!-- CSS Main File -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo"><i class="fa-solid fa-hotel"></i> Hotel</a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#room" class="nav-link">Room</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#review" class="nav-link">Review</a>
+                <a href="#faq" class="nav-link">Faq</a>
+                <a href="#book" class="nav-link btn">Book Now</a>
+            </nav>
+            <div class="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Home Section -->
+    <section class="home section-padding" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <h3>It's Where Dreams Come True</h3>
+                        <a href="#" class="btn">Visit Our Offer</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <h3>It's Where Dreams Come True</h3>
+                        <a href="#" class="btn">Visit Our Offer</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <h3>It's Where Dreams Come True</h3>
+                        <a href="#" class="btn">Visit Our Offer</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <h3>It's Where Dreams Come True</h3>
+                        <a href="#" class="btn">Visit Our Offer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <!-- End Home Section -->
+    <!-- Start Availabilty Section -->
+    <section class="available section-padding">
+        <div class="container">
+            <form action="" class="form">
+                <div class="box">
+                    <label>Check In<sup>*</sup></label>
+                    <input type="date" name="date-in"/>
+                </div>
+                <div class="box">
+                    <label>Check Out<sup>*</sup></label>
+                    <input type="date" name="date-out"/>
+                </div>
+                <div class="box">
+                    <label>Adults<sup>*</sup></label>
+                    <select name="adults">
+                        <option value="select1">1 Adults</option>
+                        <option value="select2">2 Adults</option>
+                        <option value="select3">3 Adults</option>
+                        <option value="select4">4 Adults</option>
+                        <option value="select5">5 Adults</option>
+                        <option value="select6">6 Adults</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label>Children<sup>*</sup></label>
+                    <select name="childerns">
+                        <option value="child1">1 Child</option>
+                        <option value="child2">2 Child</option>
+                        <option value="child3">3 Child</option>
+                        <option value="child4">4 Child</option>
+                        <option value="child5">5 Child</option>
+                        <option value="child6">6 Child</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label>Rooms<sup>*</sup></label>
+                    <select name="rooms">
+                        <option value="room1">1 Rooms</option>
+                        <option value="room2">2 Rooms</option>
+                        <option value="room3">3 Rooms</option>
+                        <option value="room4">4 Rooms</option>
+                        <option value="room5">5 Rooms</option>
+                        <option value="room6">6 Rooms</option>
+                    </select>
+                </div>
+                <input type="submit" value="Check Availabilty" class="btn"/>
+            </form>
+        </div>
+    </section>
+    <!-- End Availabilty Section -->
+    <!-- Start About Section -->
+    <section class="about section-padding section" id="about">
+        <div class="container">
+            <div class="image">
+                <img src="images/about.jpg" alt="about-img"/>
+            </div>
+            <div class="about-info">
+                <h3>About Us</h3>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ratione Nesciunt Blanditiis Maxime Natus Repudiandae Veritatis Alias Laboriosam Neque Cum! Est Adipisci Assumenda, Ad Debitis Iusto Laudantium Repellat Aliquam Dolore Voluptates.</p>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ratione Nesciunt Blanditiis Maxime Natus Repudiandae Veritatis Alias Laboriosam Neque Cum! Est Adipisci Assumenda, Ad Debitis Iusto Laudantium Repellat Aliquam Dolore Voluptates.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+    <!-- Start Room Section -->
+    <section class="room section section-padding" id="room">
+        <h2 class="heading">Our Room</h2>
+        <div class="container">
+            <div class="swiper room-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider">
+                        <img src="images/room-1.jpg" alt="img"/>
+                        <div class="flex">
+                            <span class="price">$15.99/night</span>
+                            <a href="#" class="shop"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <h3>Exclusive Room</h3>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Sapiente Nisi.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img src="images/room-2.jpg" alt="img"/>
+                        <div class="flex">
+                            <span class="price">$15.99/night</span>
+                            <a href="#" class="shop"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <h3>Exclusive Room</h3>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Sapiente Nisi.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img src="images/room-3.jpg" alt="img"/>
+                        <div class="flex">
+                            <span class="price">$15.99/night</span>
+                            <a href="#" class="shop"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <h3>Exclusive Room</h3>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Sapiente Nisi.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img src="images/room-4.jpg" alt="img"/>
+                        <div class="flex">
+                            <span class="price">$15.99/night</span>
+                            <a href="#" class="shop"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <h3>Exclusive Room</h3>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Sapiente Nisi.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img src="images/room-5.jpg" alt="img"/>
+                        <div class="flex">
+                            <span class="price">$15.99/night</span>
+                            <a href="#" class="shop"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <h3>Exclusive Room</h3>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Sapiente Nisi.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img src="images/room-6.jpg" alt="img"/>
+                        <div class="flex">
+                            <span class="price">$15.99/night</span>
+                            <a href="#" class="shop"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <h3>Exclusive Room</h3>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Sapiente Nisi.</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star fa-fw"></i>
+                            <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Room Section -->
+    <!-- Start Services Section -->
+    <section class="services section-padding">
+        <div class="container">
+            <div class="service">
+                <img src="images/service1.png" alt="img"/>
+                <h3>Swimming Pool</h3>
+            </div>
+            <div class="service">
+                <img src="images/service2.png" alt="img"/>
+                <h3>Food & Drink</h3>
+            </div>
+            <div class="service">
+                <img src="images/service3.png" alt="img"/>
+                <h3>Restaurant</h3>
+            </div>
+            <div class="service">
+                <img src="images/service4.png" alt="img"/>
+                <h3>Fitness</h3>
+            </div>
+            <div class="service">
+                <img src="images/service5.png" alt="img"/>
+                <h3>Beauty Spa</h3>
+            </div>
+            <div class="service">
+                <img src="images/service6.png" alt="img"/>
+                <h3>Resort Beach</h3>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- Start Gallery Section -->
+    <section class="gallery section-padding" id="gallery">
+        <h2 class="heading">Our Gallery</h2>
+        <div class="container">
+            <div class="swiper gallery-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider">
+                        <img src="images/gallery1.jpg" alt="img"/>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img src="images/gallery2.jpg" alt="img"/>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img src="images/gallery3.jpg" alt="img"/>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img src="images/gallery4.jpg" alt="img"/>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img src="images/gallery5.jpg" alt="img"/>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                    <div class="swiper-slide slider">
+                        <img src="images/gallery6.jpg" alt="img"/>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Gallery Section -->
+    <!-- Start Review Section -->
+    <section class="review" id="review">
+        <div class="container">
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <h3>Client's Review</h3>
+                        <i class="fa-solid fa-quote-right quote"></i>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ratione Nesciunt Blanditiis Maxime Natus Repudiandae Veritatis Alias Laboriosam Neque Cum! Est Adipisci Assumenda, Ad Debitis Iusto Laudantium Repellat Aliquam Dolore Voluptates.</p>
+                        <div class="content">
+                            <img src="images/pic-1.png" alt="img"/>
+                            <div class="info">
+                                <h5>John Deo</h5>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>Client's Review</h3>
+                        <i class="fa-solid fa-quote-right quote"></i>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ratione Nesciunt Blanditiis Maxime Natus Repudiandae Veritatis Alias Laboriosam Neque Cum! Est Adipisci Assumenda, Ad Debitis Iusto Laudantium Repellat Aliquam Dolore Voluptates.</p>
+                        <div class="content">
+                            <img src="images/pic-2.png" alt="img"/>
+                            <div class="info">
+                                <h5>John Deo</h5>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>Client's Review</h3>
+                        <i class="fa-solid fa-quote-right quote"></i>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ratione Nesciunt Blanditiis Maxime Natus Repudiandae Veritatis Alias Laboriosam Neque Cum! Est Adipisci Assumenda, Ad Debitis Iusto Laudantium Repellat Aliquam Dolore Voluptates.</p>
+                        <div class="content">
+                            <img src="images/pic-3.png" alt="img"/>
+                            <div class="info">
+                                <h5>John Deo</h5>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>Client's Review</h3>
+                        <i class="fa-solid fa-quote-right quote"></i>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ratione Nesciunt Blanditiis Maxime Natus Repudiandae Veritatis Alias Laboriosam Neque Cum! Est Adipisci Assumenda, Ad Debitis Iusto Laudantium Repellat Aliquam Dolore Voluptates.</p>
+                        <div class="content">
+                            <img src="images/pic-4.png" alt="img"/>
+                            <div class="info">
+                                <h5>John Deo</h5>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>Client's Review</h3>
+                        <i class="fa-solid fa-quote-right quote"></i>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ratione Nesciunt Blanditiis Maxime Natus Repudiandae Veritatis Alias Laboriosam Neque Cum! Est Adipisci Assumenda, Ad Debitis Iusto Laudantium Repellat Aliquam Dolore Voluptates.</p>
+                        <div class="content">
+                            <img src="images/pic-5.png" alt="img"/>
+                            <div class="info">
+                                <h5>John Deo</h5>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <h3>Client's Review</h3>
+                        <i class="fa-solid fa-quote-right quote"></i>
+                        <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Ratione Nesciunt Blanditiis Maxime Natus Repudiandae Veritatis Alias Laboriosam Neque Cum! Est Adipisci Assumenda, Ad Debitis Iusto Laudantium Repellat Aliquam Dolore Voluptates.</p>
+                        <div class="content">
+                            <img src="images/pic-6.png" alt="img"/>
+                            <div class="info">
+                                <h5>John Deo</h5>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star fa-fw"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Review Section -->
+    <!-- Start FAQ Section -->
+    <section class="faq section section-padding" id="faq">
+        <h2 class="heading">Frequently Asked Questions</h2>
+        <div class="container">
+            <div class="image">
+                <img src="images/FAQs.gif" alt="img"/>
+            </div>
+            <div class="accordion">
+                <div class="accordion-box active">
+                    <h3>What Are Payment Methods?</h3>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aliquam Cupiditate Mollitia.</p>
+                </div>
+                <div class="accordion-box">
+                    <h3>What Are Payment Methods?</h3>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aliquam Cupiditate Mollitia.</p>
+                </div>
+                <div class="accordion-box">
+                    <h3>What Are Payment Methods?</h3>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aliquam Cupiditate Mollitia.</p>
+                </div>
+                <div class="accordion-box">
+                    <h3>What Are Payment Methods?</h3>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aliquam Cupiditate Mollitia.</p>
+                </div>
+                <div class="accordion-box">
+                    <h3>What Are Payment Methods?</h3>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aliquam Cupiditate Mollitia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End FAQ Section -->
+    <!-- Start Book Section -->
+    <section class="book section section-padding" id="book">
+        <h2 class="heading">Book Now</h2>
+        <div class="container">
+            <form action="" class="formed">
+                <div class="box">
+                    <label>Name <sup>*</sup></label>
+                    <input type="text" placeholder="Your Name" name="name"/>
+                </div>
+                <div class="box">
+                    <label>Email <sup>*</sup></label>
+                    <input type="email" placeholder="Your Email" name="mail"/>
+                </div>
+                <div class="box">
+                    <label>Check In<sup>*</sup></label>
+                    <input type="date" name="date-in"/>
+                </div>
+                <div class="box">
+                    <label>Check Out<sup>*</sup></label>
+                    <input type="date" name="date-out"/>
+                </div>
+                <div class="box">
+                    <label>Adults<sup>*</sup></label>
+                    <select name="adults">
+                        <option value="select1">1 Adults</option>
+                        <option value="select2">2 Adults</option>
+                        <option value="select3">3 Adults</option>
+                        <option value="select4">4 Adults</option>
+                        <option value="select5">5 Adults</option>
+                        <option value="select6">6 Adults</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label>Children<sup>*</sup></label>
+                    <select name="childerns">
+                        <option value="child1">1 Child</option>
+                        <option value="child2">2 Child</option>
+                        <option value="child3">3 Child</option>
+                        <option value="child4">4 Child</option>
+                        <option value="child5">5 Child</option>
+                        <option value="child6">6 Child</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label>Rooms<sup>*</sup></label>
+                    <select name="rooms">
+                        <option value="room1">1 Rooms</option>
+                        <option value="room2">2 Rooms</option>
+                        <option value="room3">3 Rooms</option>
+                        <option value="room4">4 Rooms</option>
+                        <option value="room5">5 Rooms</option>
+                        <option value="room6">6 Rooms</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label>Room Type<sup>*</sup></label>
+                    <select name="rooms">
+                        <option value="exclusive">Exclusive Rooms</option>
+                        <option value="family">Family Rooms</option>
+                        <option value="daily">Daily Rooms</option>
+                        <option value="panoramic">Panoramic Rooms</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn" value="Check Availabilty"/>
+            </form>
+        </div>
+    </section>
+    <!-- End Book Section -->
+    <!-- Start Footer -->
+    <footer class="section-padding">
+        <div class="container">
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"><i class="fa-solid fa-phone fa-fw"></i> +123-852-4565</a>
+                <a href="#"><i class="fa-solid fa-phone fa-fw"></i> +123-852-4565</a>
+                <a href="#"><i class="fa-solid fa-envelope fa-fw"></i> eng.amola.saad@gmail.com</a>
+                <a href="#"><i class="fa-solid fa-map fa-fw"></i> Karachi, Pakistan</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#"><i class="fa-solid fa-arrow-right fa-fw"></i> Home</a>
+                <a href="#"><i class="fa-solid fa-arrow-right fa-fw"></i> About</a>
+                <a href="#"><i class="fa-solid fa-arrow-right fa-fw"></i> Rooms</a>
+                <a href="#"><i class="fa-solid fa-arrow-right fa-fw"></i> Gallery</a>
+                <a href="#"><i class="fa-solid fa-arrow-right fa-fw"></i> Reservation</a>
+            </div>
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#"><i class="fa-solid fa-arrow-right fa-fw"></i> Refund Policy</a>
+                <a href="#"><i class="fa-solid fa-arrow-right fa-fw"></i> Refund Policy</a>
+                <a href="#"><i class="fa-solid fa-arrow-right fa-fw"></i> Refund Policy</a>
+                <a href="#"><i class="fa-solid fa-arrow-right fa-fw"></i> Refund Policy</a>
+                <a href="#"><i class="fa-solid fa-arrow-right fa-fw"></i> Refund Policy</a>
+            </div>
+        </div>
+        <p>All Rights Reserved!</p>
+    </footer>
+    <!-- End Footer -->
+    <!-- Swipper CDN For JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- FontAwesome Libirary JS -->
+    <script src="js/all.min.js"></script>
+    <!-- JS Main File -->
+    <script src="js/script.js"></script>
+</body>
+</html>
